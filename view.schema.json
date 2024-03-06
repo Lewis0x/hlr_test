@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for view info",
+  "type": "object",
+  "properties": {
+    "position": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "maxItems": 3,
+        "minItems": 3
+      }
+    },
+    "target": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "maxItems": 3,
+        "minItems": 3
+      }
+    },
+    "flag": {
+      "type": "boolean"
+    },
+    "token": {
+      "type": "number",
+      "minimum": 0
+    },
+    "smooth_cosine": {
+      "type": "number",
+      "maximum": 1.0,
+      "minimum": -1.0
+    },
+    "self_calibrate_resolutions": {
+      "type": "boolean"
+    },
+    "use_surface_approximation": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "position",
+    "target",
+    "flag",
+    "token",
+    "smooth_cosine",
+    "self_calibrate_resolutions",
+    "use_surface_approximation"
+  ]
+}

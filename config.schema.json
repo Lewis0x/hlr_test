@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for config",
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "ori": {
+          "type": "string"
+        },
+        "hlr": {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "string"
+            },
+            "vis": {
+              "type": "string"
+            },
+            "hid": {
+              "type": "string"
+            },
+            "occ": {
+              "type": "string"
+            },
+            "vis_s": {
+              "type": "string"
+            },
+            "hid_s": {
+              "type": "string"
+            },
+            "unknown": {
+              "type": "string"
+            },
+            "inn": {
+              "type": "string"
+            },
+            "out": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "all",
+            "vis",
+            "hid",
+            "occ",
+            "vis_s",
+            "hid_s",
+            "unknown",
+            "inn",
+            "out"
+          ]
+        },
+        "chopped": {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "string"
+            },
+            "vis": {
+              "type": "string"
+            },
+            "hid": {
+              "type": "string"
+            },
+            "occ": {
+              "type": "string"
+            },
+            "vis_s": {
+              "type": "string"
+            },
+            "hid_s": {
+              "type": "string"
+            },
+            "unknown": {
+              "type": "string"
+            },
+            "inn": {
+              "type": "string"
+            },
+            "out": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "all",
+            "vis",
+            "hid",
+            "occ",
+            "vis_s",
+            "hid_s",
+            "unknown",
+            "inn",
+            "out"
+          ]
+        },
+        "terminal": {
+          "type": "string"
+        }
+      },
+      "required": [ "ori", "hlr", "chopped", "terminal" ]
+    },
+    "view": {
+      "$ref": "./view.schema.json"
+    },
+    "runtime": {
+      "type": "object",
+      "properties": {
+        "mine-dll": {
+          "type": "boolean"
+        },
+        "calc-only": {
+          "type": "boolean"
+        }
+      },
+      "required": [ "mine-dll", "calc-only" ]
+    }
+  },
+  "required": [ "input", "output", "view", "runtime" ]
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../view.schema.json",
+    "flag": true,
+    "position": [0, 0, 1],
+    "target": [0, 0, 0],
+    "smooth_cosine": 0.95,
+    "use_surface_approximation": true,
+    "self_calibrate_resolutions": true,
+    "token": 0
+}
