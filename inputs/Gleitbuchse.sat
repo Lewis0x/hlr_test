@@ -1,0 +1,215 @@
+700 212 1 0         
+16 Autodesk AutoCAD 20 ASM 229.2.0.65535 NT 24 Wed Mar  6 01:23:28 2024 
+1 9.999999999999999547e-07 1.000000000000000036e-10 
+body $1 -1 $-1 $2 $-1 $3 #
+DXID-attrib $-1 -1 $-1 $-1 $0 @18 ASM_BODY_FROM_STEP @83 FAF580601BB4CDE8DB90D9C57BCAB8E3581C3876|:|194EF729596DB185B60266DD7BD8C3920EA1383F #
+lump $-1 -1 $-1 $-1 $4 $0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+shell $-1 -1 $-1 $-1 $-1 $5 $-1 $2 #
+face $6 -1 $-1 $7 $8 $4 $-1 $9 forward single #
+truecolor-adesk-attrib $-1 -1 $10 $-1 $5 -1026895378 #
+face $11 -1 $-1 $12 $13 $4 $-1 $14 forward single #
+loop $-1 -1 $-1 $-1 $15 $5 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 13 0 0 1 I I 0 1 13 forward I I I I #
+color-adesk-attrib $-1 -1 $16 $6 $5 254 #
+truecolor-adesk-attrib $-1 -1 $17 $-1 $7 -1026895378 #
+face $18 -1 $-1 $19 $20 $4 $-1 $21 reversed single #
+loop $-1 -1 $-1 $-1 $22 $7 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 9.999999999999998224 0 0 1 I I 0 1 9.999999999999998224 forward I I I I #
+coedge $-1 -1 $-1 $23 $24 $25 $26 forward $8 $-1 #
+DXID-attrib $-1 -1 $-1 $10 $5 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-20 #
+color-adesk-attrib $-1 -1 $27 $11 $7 254 #
+truecolor-adesk-attrib $-1 -1 $28 $-1 $12 -1026895378 #
+face $29 -1 $-1 $30 $31 $4 $-1 $32 reversed single #
+loop $-1 -1 $-1 $-1 $33 $12 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 8 0 0 1 I I 0 1 8 forward I I I I #
+coedge $-1 -1 $-1 $34 $35 $36 $37 forward $13 $-1 #
+coedge $-1 -1 $-1 $38 $15 $39 $40 forward $8 $-1 #
+coedge $-1 -1 $-1 $15 $38 $41 $42 reversed $8 $-1 #
+coedge $-1 -1 $-1 $43 $43 $15 $26 reversed $44 $-1 #
+edge $45 -1 $-1 $46 0 $47 3.141592653589793116 $15 $48 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $17 $7 @18 ASM_FACE_FROM_STEP @15 Gleitbuchse-124 #
+color-adesk-attrib $-1 -1 $49 $18 $12 254 #
+truecolor-adesk-attrib $-1 -1 $50 $-1 $19 -1026895378 #
+face $51 -1 $-1 $52 $53 $4 $-1 $54 reversed single #
+loop $-1 -1 $-1 $55 $56 $19 #
+plane-surface $-1 -1 $-1 0 13 1.925929944387235853e-31 0 0 -1 -1 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $57 $58 $59 $60 reversed $20 $-1 #
+coedge $-1 -1 $-1 $61 $22 $62 $63 forward $13 $-1 #
+coedge $-1 -1 $-1 $22 $61 $64 $65 reversed $13 $-1 #
+coedge $-1 -1 $-1 $66 $66 $22 $37 reversed $67 $-1 #
+edge $68 -1 $-1 $69 0 $70 3.141592653589793116 $22 $71 forward @7 unknown #
+coedge $-1 -1 $-1 $24 $23 $56 $72 reversed $8 $-1 #
+coedge $-1 -1 $-1 $73 $74 $23 $40 reversed $75 $-1 #
+edge $76 -1 $-1 $47 -0.002000000000000000042 $77 3.851859888774471706e-34 $23 $78 forward @2 g2 #
+coedge $-1 -1 $-1 $74 $73 $24 $42 forward $75 $-1 #
+edge $79 -1 $-1 $46 -0.002000000000000000042 $80 3.851859888774471706e-34 $24 $81 forward @2 g2 #
+coedge $-1 -1 $-1 $25 $25 $73 $82 reversed $44 $-1 #
+loop $-1 -1 $-1 $83 $25 $84 #
+truecolor-adesk-attrib $-1 -1 $85 $-1 $26 -1026895378 #
+vertex $-1 -1 $-1 $26 $86 #
+vertex $-1 -1 $-1 $26 $87 #
+ellipse-curve $-1 -1 $-1 0 0 -2 0 0 1 13 0 0 1 F 0 F 3.141592653589793116 #
+DXID-attrib $-1 -1 $-1 $28 $12 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-98 #
+color-adesk-attrib $-1 -1 $88 $29 $19 254 #
+truecolor-adesk-attrib $-1 -1 $89 $-1 $30 -1026895378 #
+face $90 -1 $-1 $91 $67 $4 $-1 $92 reversed single #
+loop $-1 -1 $-1 $-1 $93 $30 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 8 0 0 1 I I 0 1 8 forward I I I I #
+loop $-1 -1 $-1 $-1 $94 $19 #
+coedge $-1 -1 $-1 $95 $95 $38 $72 forward $31 $-1 #
+coedge $-1 -1 $-1 $96 $33 $93 $97 forward $20 $-1 #
+coedge $-1 -1 $-1 $33 $96 $98 $99 reversed $20 $-1 #
+coedge $-1 -1 $-1 $100 $100 $33 $60 forward $101 $-1 #
+edge $102 -1 $-1 $103 -3.141592653589793116 $104 0 $33 $105 forward @7 unknown #
+coedge $-1 -1 $-1 $35 $34 $106 $107 reversed $13 $-1 #
+coedge $-1 -1 $-1 $108 $109 $34 $63 reversed $110 $-1 #
+edge $111 -1 $-1 $70 -0.02500000000000000139 $112 -0.002000000000000000042 $34 $113 forward @2 g2 #
+coedge $-1 -1 $-1 $109 $108 $35 $65 forward $110 $-1 #
+edge $114 -1 $-1 $69 -0.02500000000000000139 $115 -0.002000000000000000042 $35 $116 forward @2 g2 #
+coedge $-1 -1 $-1 $36 $36 $108 $117 reversed $67 $-1 #
+loop $-1 -1 $-1 $101 $36 $52 #
+truecolor-adesk-attrib $-1 -1 $118 $-1 $37 -1026895378 #
+vertex $-1 -1 $-1 $37 $119 #
+vertex $-1 -1 $-1 $37 $120 #
+ellipse-curve $-1 -1 $-1 0 0 -25 0 0 1 9.999999999999998224 0 0 1 F 0 F 3.141592653589793116 #
+edge $121 -1 $-1 $80 0 $77 3.141592653589793116 $38 $122 forward @7 unknown #
+coedge $-1 -1 $-1 $41 $39 $43 $82 forward $75 $-1 #
+coedge $-1 -1 $-1 $39 $41 $95 $123 reversed $75 $-1 #
+loop $-1 -1 $-1 $-1 $39 $124 #
+truecolor-adesk-attrib $-1 -1 $125 $-1 $40 -1026895378 #
+vertex $-1 -1 $-1 $40 $126 #
+straight-curve $-1 -1 $-1 -13 1.592040838891559095e-15 0 0 0 1000 F -0.002000000000000000042 F 3.851859888774471706e-34 #
+truecolor-adesk-attrib $-1 -1 $127 $-1 $42 -1026895378 #
+vertex $-1 -1 $-1 $72 $128 #
+straight-curve $-1 -1 $-1 13 0 0 0 0 1000 F -0.002000000000000000042 F 3.851859888774471706e-34 #
+edge $129 -1 $-1 $47 -3.141592653589793116 $46 0 $43 $130 forward @7 unknown #
+loop $-1 -1 $-1 $-1 $106 $84 #
+face $131 -1 $-1 $124 $44 $4 $-1 $132 reversed single #
+color-adesk-attrib $-1 -1 $133 $45 $26 254 #
+point $-1 -1 $-1 13 0 -2 #
+point $-1 -1 $-1 -13 1.592040838891559095e-15 -2 #
+DXID-attrib $-1 -1 $-1 $50 $19 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-67 #
+color-adesk-attrib $-1 -1 $134 $51 $30 254 #
+truecolor-adesk-attrib $-1 -1 $135 $-1 $52 -1026895378 #
+face $136 -1 $-1 $84 $110 $4 $-1 $137 forward single #
+plane-surface $-1 -1 $-1 0 8 -25 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $138 $139 $57 $97 reversed $53 $-1 #
+coedge $-1 -1 $-1 $140 $140 $139 $141 reversed $55 $-1 #
+coedge $-1 -1 $-1 $56 $56 $74 $123 forward $31 $-1 #
+coedge $-1 -1 $-1 $58 $57 $140 $142 forward $20 $-1 #
+edge $143 -1 $-1 $103 -0.02500000000000000139 $144 0 $57 $145 forward @2 g2 #
+coedge $-1 -1 $-1 $139 $138 $58 $99 forward $53 $-1 #
+edge $146 -1 $-1 $104 -0.02500000000000000139 $147 0 $58 $148 forward @2 g2 #
+coedge $-1 -1 $-1 $59 $59 $138 $149 forward $101 $-1 #
+loop $-1 -1 $-1 $-1 $100 $52 #
+truecolor-adesk-attrib $-1 -1 $150 $-1 $60 -1026895378 #
+vertex $-1 -1 $-1 $60 $151 #
+vertex $-1 -1 $-1 $60 $152 #
+ellipse-curve $-1 -1 $-1 0 0 -25 0 0 1 8 0 0 1 F -3.141592653589793116 F 0 #
+coedge $-1 -1 $-1 $153 $153 $61 $107 forward $83 $-1 #
+edge $154 -1 $-1 $115 0 $112 3.141592653589793116 $61 $155 forward @7 unknown #
+coedge $-1 -1 $-1 $64 $62 $66 $117 forward $110 $-1 #
+coedge $-1 -1 $-1 $62 $64 $153 $156 reversed $110 $-1 #
+loop $-1 -1 $-1 $-1 $62 $91 #
+truecolor-adesk-attrib $-1 -1 $157 $-1 $63 -1026895378 #
+vertex $-1 -1 $-1 $63 $158 #
+straight-curve $-1 -1 $-1 -9.999999999999998224 1.224646799147353256e-15 0 0 0 1000 F -0.02500000000000000139 F -0.002000000000000000042 #
+truecolor-adesk-attrib $-1 -1 $159 $-1 $65 -1026895378 #
+vertex $-1 -1 $-1 $107 $160 #
+straight-curve $-1 -1 $-1 9.999999999999998224 0 0 0 0 1000 F -0.02500000000000000139 F -0.002000000000000000042 #
+edge $161 -1 $-1 $70 -3.141592653589793116 $69 0 $66 $162 forward @7 unknown #
+color-adesk-attrib $-1 -1 $163 $68 $37 254 #
+point $-1 -1 $-1 9.999999999999998224 0 -25 #
+point $-1 -1 $-1 -9.999999999999998224 1.224646799147353256e-15 -25 #
+truecolor-adesk-attrib $-1 -1 $164 $-1 $72 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 3.851859888774471706e-31 0 0 1 13 0 0 1 F 0 F 3.141592653589793116 #
+edge $165 -1 $-1 $77 -3.141592653589793116 $80 0 $95 $166 forward @7 unknown #
+face $167 -1 $-1 $-1 $75 $4 $-1 $168 forward single #
+color-adesk-attrib $-1 -1 $169 $76 $40 254 #
+point $-1 -1 $-1 -13 1.592040838891559095e-15 3.851859888774471706e-31 #
+color-adesk-attrib $-1 -1 $170 $79 $42 254 #
+point $-1 -1 $-1 13 0 3.851859888774471706e-31 #
+truecolor-adesk-attrib $-1 -1 $171 $-1 $82 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 -2 0 0 1 13 0 0 1 F -3.141592653589793116 F 0 #
+truecolor-adesk-attrib $-1 -1 $172 $-1 $84 -1026895378 #
+plane-surface $-1 -1 $-1 0 9.999999999999996447 -2 0 0 1 1 0 0 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $85 $26 @18 ASM_EDGE_FROM_STEP @2 42 #
+DXID-attrib $-1 -1 $-1 $89 $30 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-92 #
+color-adesk-attrib $-1 -1 $173 $90 $52 254 #
+truecolor-adesk-attrib $-1 -1 $174 $-1 $91 -1026895378 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 9.999999999999998224 0 0 1 I I 0 1 9.999999999999998224 forward I I I I #
+coedge $-1 -1 $-1 $98 $93 $100 $149 reversed $53 $-1 #
+coedge $-1 -1 $-1 $93 $98 $94 $141 forward $53 $-1 #
+coedge $-1 -1 $-1 $94 $94 $96 $142 reversed $55 $-1 #
+edge $175 -1 $-1 $147 0 $144 3.141592653589793116 $94 $176 forward @7 unknown #
+edge $177 -1 $-1 $144 -3.141592653589793116 $147 0 $96 $178 forward @7 unknown #
+truecolor-adesk-attrib $-1 -1 $179 $-1 $97 -1026895378 #
+vertex $-1 -1 $-1 $97 $180 #
+straight-curve $-1 -1 $-1 -8 9.797174393178825657e-16 0 0 0 1000 F -0.02500000000000000139 F 0 #
+truecolor-adesk-attrib $-1 -1 $181 $-1 $99 -1026895378 #
+vertex $-1 -1 $-1 $142 $182 #
+straight-curve $-1 -1 $-1 8 0 0 0 0 1000 F -0.02500000000000000139 F 0 #
+edge $183 -1 $-1 $104 0 $103 3.141592653589793116 $138 $184 forward @7 unknown #
+color-adesk-attrib $-1 -1 $185 $102 $60 254 #
+point $-1 -1 $-1 -8 9.797174393178825657e-16 -25 #
+point $-1 -1 $-1 8 0 -25 #
+coedge $-1 -1 $-1 $106 $106 $109 $156 forward $83 $-1 #
+truecolor-adesk-attrib $-1 -1 $186 $-1 $107 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 -2 0 0 1 9.999999999999996447 0 0 1 F 0 F 3.141592653589793116 #
+edge $187 -1 $-1 $112 -3.141592653589793116 $115 0 $109 $188 forward @7 unknown #
+color-adesk-attrib $-1 -1 $189 $111 $63 254 #
+point $-1 -1 $-1 -9.999999999999996447 1.224646799147353059e-15 -2 #
+color-adesk-attrib $-1 -1 $190 $114 $65 254 #
+point $-1 -1 $-1 9.999999999999996447 0 -2 #
+truecolor-adesk-attrib $-1 -1 $191 $-1 $117 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 -25 0 0 1 9.999999999999998224 0 0 1 F -3.141592653589793116 F 0 #
+DXID-attrib $-1 -1 $-1 $118 $37 @18 ASM_EDGE_FROM_STEP @3 108 #
+color-adesk-attrib $-1 -1 $192 $121 $72 254 #
+truecolor-adesk-attrib $-1 -1 $193 $-1 $123 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 3.851859888774471706e-31 0 0 1 13 0 0 1 F -3.141592653589793116 F 0 #
+truecolor-adesk-attrib $-1 -1 $194 $-1 $124 -1026895378 #
+cone-surface $-1 -1 $-1 0 0 0 0 0 1 13 0 0 1 I I 0 1 13 forward I I I I #
+DXID-attrib $-1 -1 $-1 $125 $40 @18 ASM_EDGE_FROM_STEP @3 211 #
+DXID-attrib $-1 -1 $-1 $127 $42 @18 ASM_EDGE_FROM_STEP @2 51 #
+color-adesk-attrib $-1 -1 $195 $129 $82 254 #
+color-adesk-attrib $-1 -1 $196 $131 $84 254 #
+DXID-attrib $-1 -1 $-1 $135 $52 @18 ASM_FACE_FROM_STEP @15 Gleitbuchse-179 #
+color-adesk-attrib $-1 -1 $197 $136 $91 254 #
+truecolor-adesk-attrib $-1 -1 $198 $-1 $141 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 8 0 0 1 F 0 F 3.141592653589793116 #
+truecolor-adesk-attrib $-1 -1 $199 $-1 $142 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 8 0 0 1 F -3.141592653589793116 F 0 #
+color-adesk-attrib $-1 -1 $200 $143 $97 254 #
+point $-1 -1 $-1 -8 9.797174393178825657e-16 0 #
+color-adesk-attrib $-1 -1 $201 $146 $99 254 #
+point $-1 -1 $-1 8 0 0 #
+truecolor-adesk-attrib $-1 -1 $202 $-1 $149 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 -25 0 0 1 8 0 0 1 F 0 F 3.141592653589793116 #
+DXID-attrib $-1 -1 $-1 $150 $60 @18 ASM_EDGE_FROM_STEP @3 187 #
+color-adesk-attrib $-1 -1 $203 $154 $107 254 #
+truecolor-adesk-attrib $-1 -1 $204 $-1 $156 -1026895378 #
+ellipse-curve $-1 -1 $-1 0 0 -2 0 0 1 9.999999999999996447 0 0 1 F -3.141592653589793116 F 0 #
+DXID-attrib $-1 -1 $-1 $157 $63 @18 ASM_EDGE_FROM_STEP @3 258 #
+DXID-attrib $-1 -1 $-1 $159 $65 @18 ASM_EDGE_FROM_STEP @3 246 #
+color-adesk-attrib $-1 -1 $205 $161 $117 254 #
+DXID-attrib $-1 -1 $-1 $164 $72 @18 ASM_EDGE_FROM_STEP @3 277 #
+color-adesk-attrib $-1 -1 $206 $165 $123 254 #
+color-adesk-attrib $-1 -1 $207 $167 $124 254 #
+DXID-attrib $-1 -1 $-1 $171 $82 @18 ASM_EDGE_FROM_STEP @3 265 #
+DXID-attrib $-1 -1 $-1 $172 $84 @18 ASM_FACE_FROM_STEP @15 Gleitbuchse-161 #
+DXID-attrib $-1 -1 $-1 $174 $91 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-72 #
+color-adesk-attrib $-1 -1 $208 $175 $141 254 #
+color-adesk-attrib $-1 -1 $209 $177 $142 254 #
+DXID-attrib $-1 -1 $-1 $179 $97 @18 ASM_EDGE_FROM_STEP @3 122 #
+DXID-attrib $-1 -1 $-1 $181 $99 @18 ASM_EDGE_FROM_STEP @2 27 #
+color-adesk-attrib $-1 -1 $210 $183 $149 254 #
+DXID-attrib $-1 -1 $-1 $186 $107 @18 ASM_EDGE_FROM_STEP @2 93 #
+color-adesk-attrib $-1 -1 $211 $187 $156 254 #
+DXID-attrib $-1 -1 $-1 $191 $117 @18 ASM_EDGE_FROM_STEP @3 141 #
+DXID-attrib $-1 -1 $-1 $193 $123 @18 ASM_EDGE_FROM_STEP @2 63 #
+DXID-attrib $-1 -1 $-1 $194 $124 @18 ASM_FACE_FROM_STEP @14 Gleitbuchse-37 #
+DXID-attrib $-1 -1 $-1 $198 $141 @18 ASM_EDGE_FROM_STEP @3 136 #
+DXID-attrib $-1 -1 $-1 $199 $142 @18 ASM_EDGE_FROM_STEP @3 233 #
+DXID-attrib $-1 -1 $-1 $202 $149 @18 ASM_EDGE_FROM_STEP @3 165 #
+DXID-attrib $-1 -1 $-1 $204 $156 @18 ASM_EDGE_FROM_STEP @3 227 #

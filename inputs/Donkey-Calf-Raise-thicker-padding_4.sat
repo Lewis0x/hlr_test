@@ -1,0 +1,67 @@
+700 64 1 0          
+5 ZWCAD 12 ACIS 28.0 NT 24 Mon May 13 15:59:24 2024 
+1 9.9999999999999995e-07 1e-10 
+body $1 -1 $-1 $2 $-1 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $0 @18 ASM_BODY_FROM_STEP @83 A332A14E27DE2179DAB5B889A790DE244E866068|:|8CB3CBCEBE3339AC3139F7812237AD39DB573F35 #
+lump $-1 -1 $-1 $-1 $3 $0 #
+shell $-1 -1 $-1 $-1 $-1 $4 $-1 $2 #
+face $5 -1 $-1 $6 $7 $3 $-1 $8 forward single #
+truecolor-adesk-attrib $-1 -1 $9 $-1 $4 -1025450021 #
+face $10 -1 $-1 $11 $12 $3 $-1 $13 reversed single #
+loop $-1 -1 $-1 $-1 $14 $4 #
+sphere-surface $-1 -1 $-1 -56.400000000000006 25 3.061617e-15 8.9000000000000039 -1 0 0 0 0 1 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $5 $4 @18 ASM_FACE_FROM_STEP @39 Donkey-Calf-Raise-thicker-padding-34818 #
+truecolor-adesk-attrib $-1 -1 $15 $-1 $6 -1025450021 #
+face $16 -1 $-1 $17 $18 $3 $-1 $19 forward single #
+loop $-1 -1 $-1 $20 $21 $6 #
+plane-surface $-1 -1 $-1 -52.5 31.500000000000007 3.061617e-15 1 0 0 0 0 -1 forward_v I I I I #
+coedge $-1 -1 $-1 $14 $14 $21 $22 forward $7 $-1 #
+DXID-attrib $-1 -1 $-1 $10 $6 @18 ASM_FACE_FROM_STEP @39 Donkey-Calf-Raise-thicker-padding-34838 #
+truecolor-adesk-attrib $-1 -1 $23 $-1 $11 -1025450021 #
+face $24 -1 $-1 $25 $26 $3 $-1 $27 forward single #
+loop $-1 -1 $-1 $-1 $28 $11 #
+sphere-surface $-1 -1 $-1 -78.599999999999994 24.999999999999996 3.061617e-15 8.9000000000000039 1 0 0 0 0 1 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $29 $6 #
+coedge $-1 -1 $-1 $21 $21 $14 $22 reversed $12 $-1 #
+edge $30 -1 $-1 $31 0 $31 6.2831853071795862 $14 $32 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $16 $11 @18 ASM_FACE_FROM_STEP @39 Donkey-Calf-Raise-thicker-padding-34855 #
+truecolor-adesk-attrib $-1 -1 $33 $-1 $17 -1025450021 #
+face $34 -1 $-1 $-1 $35 $3 $-1 $36 forward single #
+loop $-1 -1 $-1 $37 $38 $17 #
+plane-surface $-1 -1 $-1 -82.5 31.500000000000004 3.061617e-15 1 0 0 0 0 -1 forward_v I I I I #
+coedge $-1 -1 $-1 $28 $28 $38 $39 reversed $18 $-1 #
+coedge $-1 -1 $-1 $29 $29 $40 $41 forward $20 $-1 #
+truecolor-adesk-attrib $-1 -1 $42 $-1 $22 -1025450021 #
+vertex $-1 -1 $-1 $22 $43 #
+ellipse-curve $-1 -1 $-1 -52.5 25 3.061617e-15 1 0 0 0 8.0000000000000107 0 1 I I #
+DXID-attrib $-1 -1 $-1 $24 $17 @18 ASM_FACE_FROM_STEP @39 Donkey-Calf-Raise-thicker-padding-34875 #
+truecolor-adesk-attrib $-1 -1 $44 $-1 $25 -1025450021 #
+loop $-1 -1 $-1 $45 $40 $25 #
+cone-surface $-1 -1 $-1 -75 25 3.061617e-15 1 5.7041960000000003e-17 0 -2.8520979999999999e-16 5 0 1 I I 0 1 5 forward I I I I #
+loop $-1 -1 $-1 $-1 $46 $17 #
+coedge $-1 -1 $-1 $38 $38 $28 $39 forward $26 $-1 #
+edge $47 -1 $-1 $48 0 $48 6.2831853071795862 $28 $49 forward @7 unknown #
+coedge $-1 -1 $-1 $40 $40 $29 $41 reversed $35 $-1 #
+edge $50 -1 $-1 $51 0 $51 6.2831853071795862 $29 $52 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $30 $22 @18 ASM_EDGE_FROM_STEP @5 34814 #
+point $-1 -1 $-1 -52.5 33.000000000000014 3.061617e-15 #
+DXID-attrib $-1 -1 $-1 $34 $25 @18 ASM_FACE_FROM_STEP @39 Donkey-Calf-Raise-thicker-padding-34887 #
+loop $-1 -1 $-1 $-1 $53 $25 #
+coedge $-1 -1 $-1 $46 $46 $53 $54 reversed $37 $-1 #
+truecolor-adesk-attrib $-1 -1 $55 $-1 $39 -1025450021 #
+vertex $-1 -1 $-1 $39 $56 #
+ellipse-curve $-1 -1 $-1 -82.5 25 3.061617e-15 1 0 0 0 8.0000000000000107 0 1 I I #
+truecolor-adesk-attrib $-1 -1 $57 $-1 $41 -1025450021 #
+vertex $-1 -1 $-1 $41 $58 #
+ellipse-curve $-1 -1 $-1 -52.5 25 3.061617e-15 1 0 0 0 5.0000000000000009 0 1 I I #
+coedge $-1 -1 $-1 $53 $53 $46 $54 forward $45 $-1 #
+edge $59 -1 $-1 $60 0 $60 6.2831853071795862 $46 $61 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $47 $39 @18 ASM_EDGE_FROM_STEP @5 34851 #
+point $-1 -1 $-1 -82.5 33.000000000000007 3.061617e-15 #
+DXID-attrib $-1 -1 $-1 $50 $41 @18 ASM_EDGE_FROM_STEP @5 34834 #
+point $-1 -1 $-1 -52.5 30 3.061617e-15 #
+truecolor-adesk-attrib $-1 -1 $62 $-1 $54 -1025450021 #
+vertex $-1 -1 $-1 $54 $63 #
+ellipse-curve $-1 -1 $-1 -82.5 25 3.061617e-15 1 0 0 0 5.0000000000000009 0 1 I I #
+DXID-attrib $-1 -1 $-1 $59 $54 @18 ASM_EDGE_FROM_STEP @5 34871 #
+point $-1 -1 $-1 -82.5 30 3.061617e-15 #

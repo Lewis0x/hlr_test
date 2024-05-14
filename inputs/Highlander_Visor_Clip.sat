@@ -1,0 +1,72 @@
+700 69 1 0          
+16 Autodesk AutoCAD 20 ASM 229.2.0.65535 NT 24 Wed Mar  6 01:36:54 2024 
+1 9.999999999999999547e-07 1.000000000000000036e-10 
+body $1 -1 $-1 $2 $-1 $3 #
+DXID-attrib $-1 -1 $-1 $-1 $0 @18 ASM_BODY_FROM_STEP @83 A9F88B5A4947A96E543C47B9B4003301A79A1ECC|:|090B293C4121AF0483E4B0D89A1B56589D70A549 #
+lump $-1 -1 $-1 $-1 $4 $0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+shell $-1 -1 $-1 $-1 $-1 $5 $-1 $2 #
+face $6 -1 $-1 $7 $8 $4 $-1 $9 reversed single #
+truecolor-adesk-attrib $-1 -1 $10 $-1 $5 -1036295756 #
+face $11 -1 $-1 $12 $13 $4 $-1 $14 forward single #
+loop $-1 -1 $-1 $15 $16 $5 #
+cone-surface $-1 -1 $-1 0 1.224646799147350002e-16 21 0 0 1 -2 0 0 1 I I 0 1 2 forward I I I I #
+color-adesk-attrib $-1 -1 $17 $6 $5 165 #
+truecolor-adesk-attrib $-1 -1 $18 $-1 $7 -1036295756 #
+face $19 -1 $-1 $20 $21 $4 $-1 $22 forward single #
+loop $-1 -1 $-1 $23 $24 $7 #
+cone-surface $-1 -1 $-1 0 1.76042977377432022e-16 21 0 0 1 -2.875 0 0 1 I I 0 1 2.875 forward I I I I #
+loop $-1 -1 $-1 $-1 $25 $5 #
+coedge $-1 -1 $-1 $16 $16 $26 $27 reversed $8 $-1 #
+DXID-attrib $-1 -1 $-1 $10 $5 @18 ASM_FACE_FROM_STEP @24 Highlander_Visor_Clip-47 #
+color-adesk-attrib $-1 -1 $28 $11 $7 165 #
+truecolor-adesk-attrib $-1 -1 $29 $-1 $12 -1036295756 #
+face $30 -1 $-1 $-1 $31 $4 $-1 $32 reversed single #
+loop $-1 -1 $-1 $33 $34 $12 #
+plane-surface $-1 -1 $-1 0 0 21 0 0 1 1000 0 0 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $35 $7 #
+coedge $-1 -1 $-1 $24 $24 $36 $37 forward $13 $-1 #
+coedge $-1 -1 $-1 $25 $25 $38 $39 forward $15 $-1 #
+coedge $-1 -1 $-1 $26 $26 $16 $27 forward $40 $-1 #
+edge $41 -1 $-1 $42 0 $42 6.283185307179586232 $16 $43 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $18 $7 @18 ASM_FACE_FROM_STEP @24 Highlander_Visor_Clip-49 #
+color-adesk-attrib $-1 -1 $44 $19 $12 165 #
+truecolor-adesk-attrib $-1 -1 $45 $-1 $20 -1036295756 #
+loop $-1 -1 $-1 $40 $36 $20 #
+plane-surface $-1 -1 $-1 0 0 4 0 0 1 1000 0 0 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $38 $12 #
+coedge $-1 -1 $-1 $34 $34 $35 $46 forward $21 $-1 #
+coedge $-1 -1 $-1 $35 $35 $34 $46 reversed $23 $-1 #
+coedge $-1 -1 $-1 $36 $36 $24 $37 reversed $31 $-1 #
+edge $47 -1 $-1 $48 0 $48 6.283185307179586232 $24 $49 forward @7 unknown #
+coedge $-1 -1 $-1 $38 $38 $25 $39 reversed $33 $-1 #
+edge $50 -1 $-1 $51 0 $51 6.283185307179586232 $25 $52 forward @7 unknown #
+loop $-1 -1 $-1 $-1 $26 $20 #
+truecolor-adesk-attrib $-1 -1 $53 $-1 $27 -1036295756 #
+vertex $-1 -1 $-1 $27 $54 #
+ellipse-curve $-1 -1 $-1 0 1.224646799147350002e-16 4 0 0 1 2 0 0 1 I I #
+DXID-attrib $-1 -1 $-1 $29 $12 @18 ASM_FACE_FROM_STEP @24 Highlander_Visor_Clip-63 #
+color-adesk-attrib $-1 -1 $55 $30 $20 165 #
+edge $56 -1 $-1 $57 0 $57 6.283185307179586232 $35 $58 forward @7 unknown #
+truecolor-adesk-attrib $-1 -1 $59 $-1 $37 -1036295756 #
+vertex $-1 -1 $-1 $37 $60 #
+ellipse-curve $-1 -1 $-1 0 1.76042977377432022e-16 4 0 0 1 2.875 0 0 1 I I #
+truecolor-adesk-attrib $-1 -1 $61 $-1 $39 -1036295756 #
+vertex $-1 -1 $-1 $39 $62 #
+ellipse-curve $-1 -1 $-1 0 1.224646799147350002e-16 21 0 0 1 2 0 0 1 I I #
+color-adesk-attrib $-1 -1 $63 $41 $27 165 #
+point $-1 -1 $-1 2 1.224646799147350002e-16 4 #
+DXID-attrib $-1 -1 $-1 $45 $20 @18 ASM_FACE_FROM_STEP @24 Highlander_Visor_Clip-55 #
+truecolor-adesk-attrib $-1 -1 $64 $-1 $46 -1036295756 #
+vertex $-1 -1 $-1 $46 $65 #
+ellipse-curve $-1 -1 $-1 0 1.76042977377432022e-16 21 0 0 1 2.875 0 0 1 I I #
+color-adesk-attrib $-1 -1 $66 $47 $37 165 #
+point $-1 -1 $-1 2.875 1.76042977377432022e-16 4 #
+color-adesk-attrib $-1 -1 $67 $50 $39 165 #
+point $-1 -1 $-1 2 1.224646799147350002e-16 21 #
+DXID-attrib $-1 -1 $-1 $53 $27 @18 ASM_EDGE_FROM_STEP @3 323 #
+color-adesk-attrib $-1 -1 $68 $56 $46 165 #
+point $-1 -1 $-1 2.875 1.76042977377432022e-16 21 #
+DXID-attrib $-1 -1 $-1 $59 $37 @18 ASM_EDGE_FROM_STEP @3 326 #
+DXID-attrib $-1 -1 $-1 $61 $39 @18 ASM_EDGE_FROM_STEP @3 324 #
+DXID-attrib $-1 -1 $-1 $64 $46 @18 ASM_EDGE_FROM_STEP @3 327 #
