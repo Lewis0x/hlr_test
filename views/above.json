@@ -1,7 +1,7 @@
 {
     "$schema": "../view.schema.json",
-    "flag": true,
-    "position": [0, 0, 1],
+    "flag": false,
+    "position": [0, 0, 1000],
     "target": [0, 0, 0],
     "smooth_cosine": 0.95,
     "use_surface_approximation": true,
